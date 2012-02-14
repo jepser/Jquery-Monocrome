@@ -1,0 +1,42 @@
+
+@import url('reset.css');
+@import url('text.css');
+@import url('960.css');
+
+body{
+    
+}
+h1,h2,h3,h4,h5, .georgia{
+    font-weight:normal;
+    font-family:Georgia;
+}
+.all{
+    width:100%;
+    position:relative;
+}
+#contenido{
+    padding-bottom:80px;
+}
+.return{
+    background:#000;
+    color:#FFF;
+    -moz-box-shadow:0 0 10px #000;
+    margin-bottom:20px;
+}
+.return a{
+    color:#FFF;
+    display:block;
+    text-decoration:none;
+    padding:10px 0;
+    font-size:18px;
+    font-style:italic;
+    text-align:right;
+}
+h1.main-title{
+    border-bottom:1px dotted #CCC;
+    font-style:italic;
+    font-size:36px;
+}
+.footer{
+    margin-bottom:0!important;
+}
