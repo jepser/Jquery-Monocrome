@@ -2,3 +2,8 @@ Jquery Monocrome - A canvas based grayscale image converter
 
 Instructions and examples:
 http://jepserbernardino.com/proyectos/plugin-de-jquery-para-escala-de-grises/
+
+== Change Log ==
+
+0.4 - Feb 17, 2013
+- Erro in Chrome, fixed just adding width and height props to Images
