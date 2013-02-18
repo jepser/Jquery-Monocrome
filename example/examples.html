@@ -1,8 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
     <title>Jquery Monocrome Demo</title>
-    <link href="styles/generic.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <link href="styles/generic.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
     <script type="text/javascript" src="scripts/jquery.monocrome.js"></script>
     <script type="text/javascript">
@@ -30,7 +31,11 @@
 				top:0;
 				display:none;
 			}
-	</style>
+	body,td,th {
+	font-family: "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+    </style>
+<meta charset="utf-8">
 </head>
 <body>
     <div class="return all">
@@ -42,23 +47,23 @@
         	<h2>Varias imagenes en un elemento</h2>
             <pre>$('.wrap').monocrome({ hideOriginal : true});</pre>
         	<div class="wrap">
-                <img src="images/honest-food.jpg" width="600" height="391" alt="Canvas Source" />
-                <img src="images/lush-briliant.jpg" width="600" height="391" alt="Canvas Source" />
+                <img src="images/honest-food.jpg" width="600" height="391" alt="Canvas Source">
+                <img src="images/lush-briliant.jpg" width="600" height="391" alt="Canvas Source">
             </div>
             <h2>Una imagen en un elemento</h2>
             <div class="wrap">
-               <img src="images/honest-food.jpg" alt="Canvas Source" />
+               <img src="images/honest-food.jpg" alt="Canvas Source">
             </div>
             <h2>Imagen Directa</h2>
             <pre>$('.convert').monocrome({ isImage : true, hideOriginal : true});</pre>
-            <img src="images/lush-briliant.jpg" width="600" height="391" class="convert" alt="Canvas Source" />
+            <img src="images/lush-briliant.jpg" width="600" height="391" class="convert" alt="Canvas Source">
             <h2>Imagen Directa, dejando el original</h2>
             <pre>$('.convertNo').monocrome({ isImage : true, hideOriginal : false});</pre>
-            <img src="images/honest-food.jpg" class="convertNo" width="600" height="391" alt="Canvas Source" />
+            <img src="images/honest-food.jpg" class="convertNo" width="600" height="391" alt="Canvas Source">
             <h2>Ejemplo util</h2>
             <p>Pasa el mouse sobre el elemento y veras que pasa...</p>
             <div class="img-wrapper">
-            	<img src="images/lush-briliant.jpg" class="convertNo" width="600" height="391" alt="Canvas Source" />
+            	<img src="images/lush-briliant.jpg" class="convertNo" width="600" height="391" alt="Canvas Source">
             </div>
         </div>
     </div><!--container_12-->
